@@ -21,7 +21,7 @@ class ImgFly
      */
     public function imgFly($image_str)
     {
-        return url('imgfly/images/' . $image_str);
+        return url('imgfly/' . $image_str);
     }
 
     /**
@@ -33,7 +33,7 @@ class ImgFly
      */
     public function img($image_str)
     {
-        return url('imgfly/images/' . $image_str);
+        return url('imgfly/' . $image_str);
     }
 
 
